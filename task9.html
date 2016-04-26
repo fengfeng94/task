@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet"  type="text/css" href="task9.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>task9-定制箱</title>
+</head>
+<body>
+<div class="header">
+<div class="container header-top">
+    <div class="row">
+        <span class="col-lg-6 col-md-6 col-sm-6 col-xs-12">客服热线：010-594-78634</span>
+        <ul class="navbar-right">
+            <li class="login">登录</li>
+            <li class="reginster">注册</li>
+        </ul>
+    </div>
+    </div>
+    <nav>
+        <div class="container header-bottom">
+            <div class="row">
+                <ul class="navbar">
+                    <li class="home">
+                        <a href="">首页</a>
+                    </li>
+                    <li>
+                        <a href="">在线定制</a>
+                    </li>
+                    <li>
+                        <a href="">标准箱</a>
+                    </li>
+                    <li>
+                        <a href="">品质保证</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <div class="container main">
+        <ul class="row">
+            <li class="step">
+                <ul>
+                    <li class="step1">
+                        <p>1</p>
+                        <h4>1.定制纸箱</h4>
+                    </li>
+                    <li>
+                        <p>2</p>
+                        <h4>2.选择数量</h4>
+                    </li>
+                    <li>
+                        <p>3</p>
+                        <h4>3.上传附件</h4>
+                    </li>
+                    <li>
+                        <p>4</p>
+                        <h4>4.确认下单</h4>
+                    </li>
+                </ul>
+            </li>
+            <li class="guidance">
+                <p>请按照以下的步骤定制您的纸箱</p>
+            </li>
+            <li class="type">
+                <span>选择箱型</span>
+            </li>
+            <li class="row type1">
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="suit cases">
+                        <input name="type" id="suit cases" class="hidden" type="radio">
+                    <span></span>
+                    对口箱
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs6" for="the plate box">
+                    <input name="type" id="the plate box" class="hidden" type="radio">
+                    <span></span>
+                    飞机盒
+                </label>
+                <label class="col-lg-2 col-md-3 col-s-3 col-sm-6" for="hat box">
+                    <input name="type" id="hat box" class="hidden" type="radio">
+                    <span></span>
+                    天地合
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6 select1">
+                    <select>
+                        <option value="">查看详情</option>
+                    </select>
+                </label>
+            </li>
+            <li class="size">
+                <i></i>
+                <span>确定尺寸</span>
+            </li>
+            <li class="row size1">
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="outside">
+                    <input id="outside" name="size" type="radio" class="hidden">
+                    <span></span>
+                    外径
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    长：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    宽：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    高：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+            </li>
+            <li class="row size2">
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="inside">
+                    <input id="inside" class="hidden" name="size" type="radio">
+                    <span></span>
+                    内径
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    长：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    宽：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    高：
+                    <input type="text" class="box">
+                    <span>mm</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-2 col-xs-6 select2">
+                    <select >
+                        <option value="">查看详情</option>
+                    </select>
+                </label>
+            </li>
+            <li class="texture">
+                <span>选择材质</span>
+            </li>
+            <li class="row texture1">
+                <label class="col-lg-2 col-md-3 col-sm-2 col-xs-6 ">
+                    <span>三层A瓦优质</span>
+                </label>
+                <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6 select3">
+                    <select>
+                        <option value="">查看详情</option>
+                    </select>
+                </label>
+            </li>
+        </ul>
+    </div>
+
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
