@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 100%;
+}
+div{
+    display: block;
+}
+.header{
+    width: 100%;
+}
+.header-top{
+    background: white;
+}
+.header-top p{
+    color: #42b683;
+    font-size: 1rem;
+    padding:  0.7% 0 0 18.7%;
+}
+.qq{
+    width:2%;
+    float: right;
+    padding: 0.3% 15% 0 0;
+
+}
+.weibo{
+    width: 2.3%;
+    float: right;
+    padding: 0.3% .78% 0 0;
+
+}
+.chat{
+    width: 2.3%;
+    float: right;
+    padding: 0.3% .78% 0 0;
+}
+.header-bottom{
+    position: relative;
+    padding: 4% 0 1.5% 0;
+    width: 100%;
+    background: #29b078;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.header-bottom ul{
+    list-style: none;
+}
+.index{
+    position: absolute;
+    top: 3%;
+    right: 33%;
+    padding: 2% 0 1% 0;
+    width: 3.7%;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+
+}
+.profession{
+    position: absolute;
+    top: 3%;
+    right: 28%;
+    width: 3.7%;
+    padding: 2% 0 1% 0;
+    text-align: center;
+    cursor: pointer;
+}
+.recommend{
+    position: absolute;
+    top: 3%;
+    right: 23%;
+    padding: 2% 0 1% 0;
+    text-align: center;
+    width: 3.7%;
+    cursor: pointer;
+
+}
+.about{
+    position: absolute;
+    top: 3%;
+    right: 17%;
+    padding: 2% 0 1% 0;
+    width: 3.7%;
+    text-align: center;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+}
+.main-top{
+    width: 100%;
+    position: relative;
+}
+.picture{
+    width: 90%;
+}
+.title{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    font-size: 2.3rem;
+    color:white;
+}
+.main-middle{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content{
+    padding: 0;
+    margin: 5% 0 0 0;
+    position: relative;
+}
+.rocket{
+    position: relative;
+    width: 19%;
+    padding: 10% 0 20% 5%;
+    display: inline-block;
+}
+.highly{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.rocket a{
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.rocket p{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-right:2%;
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+.norm{
+    position: relative;
+    width: 19%;
+    padding: 10% 0 20% 5%;
+    display: inline-block;
+}
+.starand{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.norm a{
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.norm p{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-right:2%;
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+.people{
+    position: relative;
+    width: 19%;
+    padding: 10% 0 20% 5%;
+    display: inline-block;
+}
+.contact{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.people a{
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.people p{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    margin-right:2%;
+    font-size: 1rem;
+    color: #a1a1a1;
+}
+.human{
+    position: relative;
+    width: 20%;
+    padding: 10% 0 20% 5%;
+    float: right;
+}
+.human-one{
+    position: absolute;
+    top:50%;
+    width:10% ;
+}
+.human span{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    display: inline-block;
+    color: #42b683;
+    font-size: 1.5rem;
+}
+.human p{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: #a1a1a1;
+
+
+}
+.human  p~p{
+    left: 25%;
+    top: 80%;
+}
+
+.human  span~span{
+    left: 35%;
+    top: 69%;
+}
+.human-two{
+    position: absolute;
+    top:69%;
+    width:10% ;
+}
+.main-middle-one{
+    max-width: 13000px;
+    margin: 0 auto;
+}
+.main-middle-one h2 {
+    text-align: center;
+    padding:20px;
+}
+.number{
+    margin-top:1%;
+    width:20%;
+    display: inline-block;
+    vert-align: middle;
+}
+.circle{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    margin-right: 1px;
+    font-size: 18px;
+    line-height: 70px;
+    text-align: center;
+    color: #29b078;
+    background: #fff;
+    border-radius: 35px;
+    box-shadow: 1px 1px 1px #e6e6e6;
+}
+.number p{
+    vertical-align: middle;
+    width: 69%;
+    font-size: 1rem;
+    color: #999999;
+    display: inline-block;
+    font-weight: 100;
+}
+.arrow{
+    margin: 0 1% 0 1%;
+}
+.main-content-two{
+    width: 100%;
+}
+.demonstrate{
+    width: 20%;
+    margin: 8%  2% 0 2.5%;
+    background: #ffffff;%;
+    display: inline-block;
+}
+.headadviser{
+    width: 40%;
+    padding: 5% 0 0 30%;
+}
+.demonstrate p{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5% 0 0 0;
+    color: #333333;
+    margin: 0 0 0 13%;
+}
+.demonstrate p~p{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 5% 0 0 0;
+    color: #333333;
+    margin: 0 0 0 13%;
+}
+.main-bottom{
+    width: 100%;
+    padding: 0 0 5% 0;
+}
+
+.main-bottom h1{
+    text-align: center;
+    padding: 9% 0 0 0;
+}
+
+.main-bottom div{
+    width: 100%;
+    background: #ffffff;
+    margin: 5% 0 0 4%;
+    display: inline-block;
+}
+
+.alibaba{
+    width: 12%;
+    float: left;
+    padding: 6% 2% 7% 5%;
+    cursor: pointer;
+}
+
+.jinshanyun{
+    width: 5%;
+    float: left;
+    padding: 5% 7% 7% 8%;
+    cursor: pointer;
+}
+
+.huanxin{
+    width: 13%;
+    float: left;
+    padding: 5.5% 5% 7.5% 5%;
+    cursor: pointer;
+}
+
+.tonxun{
+    width: 12%;
+    float: left;
+    padding: 6.5% 4% 8% 4%;
+    cursor: pointer;
+}
+
+.main-bottom .alibaba:hover{
+    box-shadow: 0 0 6px 6px #e2e2e2;
+}
+
+.main-bottom .jinshanyun:hover{
+    box-shadow: 0 0 5px 3px #e2e2e2;
+}
+
+.main-bottom .huanxin:hover{
+    box-shadow: 0 0 5px 3px #e2e2e2;
+}
+
+
+.main-bottom .tonxun:hover{
+    box-shadow: 0 0 5px 3px #e2e2e2;
+}
+
+
+
+
+
