@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and(max-width: 1220px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+    @media screen and (max-width: 992px) {
+        html {
+            font-size: 52.5%;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        html {
+            font-size: 42.5%;
+        }
+    }
+h1{
+    font-size: 2.6rem;
+    color: #ffffff;
+}
+h2 {
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+
+@media screen and (max-width: 992px){
+   h1{
+       font-size: 3rem;
+   }
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.header-top p{
+    line-height: 4rem;
+    color: #1db176;
+}
+.header-top li{
+    float: right;
+    padding: 1.2rem .5rem;
+}
+@media screen and (max-width: 767px) {
+    .header-top li {
+        float: left;
+    }
+}
+.icon-header1-weixin {
+    width: 32px;
+    height: 22px;
+    background: url("photo/icon-weixin.png");
+    margin-right: .6rem;
+}
+.icon-header1-qq {
+    width: 25px;
+    height: 22px;
+    background: url("photo/icon-qq.png");
+    margin-right: .6rem;
+}
+.icon-header1-weibo {
+    width: 31px;
+    height: 22px;
+    background: url("photo/icon-weibo.png") ;
+    margin-right: .6rem;
+}
+nav{
+    background: #1db176;
+}
+.header-bottom .logo {
+    color: #fff;
+}
+nav li{
+    padding: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.nav li:hover {
+    border-bottom: 5px solid #fff;
+}
+.nav li a:hover {
+    background-color: #1db176;
+}
+.white {
+    border-bottom: 5px solid #fff;
+}
+.green {
+    border-bottom: 5px solid #1db176;
+}
+.main-middle {
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fafafa;
+}
+.main-middle1 {
+    overflow: hidden;
+    width: 100%;
+    margin: 16rem 0 5rem;
+}
+.efficient{
+    margin: 0 auto;
+    width: 59px;
+    height: 64px;
+    background: url("photo/icon-highly.png");
+}
+.normalized {
+    margin: 0 auto;
+    width: 59px;
+    height: 51px;
+    background: url("photo/icon-starand.png");
+}
+.contacts {
+    margin: 0 auto;
+    width: 54px;
+    height: 56px;
+    background: url("photo/icon-contact.png");
+}
+.main-middle-right {
+    padding: 4.8rem 0 2rem 5rem;
+    border-left: 1px dashed #999;
+}
+@media screen and (max-width: 767px) {
+    .main-middle-right {
+        border: none;
+    }
+}
+.main-middle-right span {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    color: #1ba36e;
+}
+.user {
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: url("photo/touxian.png");
+}
+.main-middle2{
+    margin: 0 auto;
+}
+.list{
+    width: 100%;
+}
+.list li{
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 10rem;
+}
+.list  p{
+    display: inline-block;
+    width: 13rem;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    color: #999999;
+}
+.circle{
+    display:inline-block;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 18px;
+    text-align: center;
+    color: #29b078;
+    border-radius: 35px;
+    box-shadow: 1px 1px 1px #e6e6e6;
+}
+.arrow {
+    margin-left:3rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    background: url("photo/icon-arrow.png") ;
+}
+.main-middle3{
+    padding-top: 5rem;
+}
+.show li{
+    padding: 1rem;
+}
+.show1{
+    border: 1px solid #eeeded;
+    padding: 2rem;
+    background: #fff;
+}
+.avatar{
+    margin: 2rem 0;
+}
+.show1 p{
+    padding:2rem 0;
+    color: #999;
+    font-size: 2rem;
+}
+.main-bottom{
+    width: 100%;
+    padding: 0 0 5% 0;
+}
+.logo{
+    width: 100%;
+    font-size: 0;
+    background-color: #fff;
+    box-shadow: 0 0 1px #ddd;
+}
+.main-bottom ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6rem 0;
+    width: 20%;
+    text-align: center;
+}
+.main-bottom ul li :hover {
+    box-shadow: 1px 1px 1px #d6d6d6;
+}
+.alibaba {
+    background: url("photo/alibaba_16.png") no-repeat center center;
+}
+.jingshanyun {
+    background: url("photo/jinyunshan_18.png") no-repeat center center;
+}
+.huanxin {
+    background: url("photo/huanxin_21.png") no-repeat center center;
+}
+.ronglian {
+    background: url("photo/tongxun_23.png") no-repeat center center;}
+
+@media screen and (max-width: 992px) {
+    .main-bottom ul li {
+        background-size: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

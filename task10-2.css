@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.header-top p{
+    line-height: 4rem;
+    color: #1db176;
+}
+.header-top li{
+    float: right;
+    padding: 1.2rem .5rem;
+}
+@media screen and(max-width: 767px){
+    .header-top li{
+        float: left;
+        padding: 1.2rem .5rem;
+    }
+    .icon-header1-weixin{
+        background: url("photo/icon-weixin.png");
+        width: 32px;
+        height: 22px;
+    }
+    .icon-header1-weibo{
+        background: url("photo/icon-weibo.png");
+        width: 31px;
+        height: 22px;
+    }
+    .icon-header1-qq{
+        background: url("photo/icon-qq.png");
+        width: 25px;
+        height: 22px;
+    }
+}
+.icon-header1-weixin{
+    background: url("photo/icon-weixin.png");
+    width: 32px;
+    height: 22px;
+}
+.icon-header1-weibo{
+    background: url("photo/icon-weibo.png");
+    width: 31px;
+    height: 22px;
+}
+.icon-header1-qq{
+    background: url("photo/icon-qq.png");
+    width: 25px;
+    height: 22px;
+}
+nav{
+    background: #1db176;
+}
+.header-bottom .logo {
+    color: #fff;
+}
+nav li{
+    padding: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.nav li:hover {
+    border-bottom: 5px solid #fff;
+}
+.nav li a:hover {
+    background-color: #1db176;
+}
+.main {
+    overflow: hidden;
+}
+.sidebar{
+    background-color: #fff;
+    border: 1px solid #ededed;
+}
+.sidebar li{
+    font-size: 1.4rem;
+    line-height: 5rem;
+}
+.sidebar a{
+    font-size: 1.5rem;
+    color: #29b078;
+}
+.sidebar h2{
+    padding: 0;
+    margin:0;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #e6e6e6;
+}
+.detail{
+    margin-top: 100px;
+    font-size: 15px;
+    border: 1px solid #e6e6e6;
+}
+.detail p{
+    padding: 30px;
+    text-indent: 2.8rem;
+    color: #999999;
+}
+.first{
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 35px;
+    color: #999;
+    border-bottom: 1px solid #e6e6e6;
+}
+.first img{
+    float: left;
+    margin: 30px;
+}
+.last{
+    padding-bottom: 50px;
+}
+footer{
+    margin-top: 5rem;
+    overflow: hidden;
+    background: #1ba36e;
+    color: #ffffff;
+}
+.footer-middle-left p{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+.footer-middle-left ul {
+    float: left;
+    padding-top: 6rem;
+}
+.footer-middle-left ul li{
+    display: inline-block;
+}
